@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : Lógica de Programação e Algoritmos
+// Disciplina   : LÃ³gica de ProgramaÃ§Ã£o e Algoritmos
 // Professor   : MSc. Tiago Antonio da Silva 
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 04/09/2025
 Var
@@ -9,7 +9,7 @@ numero:inteiro
 
 
 Inicio
-escreval("Olá escolha 1 desses herois")
+escreval("OlÃ¡ escolha 1 desses herois")
 escreval("1 - Flash")
 escreval("2 - Besouro-azul")
 escreval("3 - batman")
@@ -20,21 +20,23 @@ leia(numero)
 escolha numero
 
 caso 1
-escreval("Flash: Velocidade incrível para vencer qualquer desafio!")
+escreval("Flash: Velocidade incrÃ­vel para vencer qualquer desafio!")
 
 caso 2
-escreval ("Besouro Azul: Tecnologia avançada para proteger o futuro!")
+escreval ("Besouro Azul: Tecnologia avanÃ§ada para proteger o futuro!")
 
 caso 3
-escreval ("Batman: Inteligência e coragem na luta contra o crime!")
+escreval ("Batman: InteligÃªncia e coragem na luta contra o crime!")
 
 caso 4
 escreval ("Homem-Aranha: Agilidade e coragem para salvar o dia!")
 
 caso 5
-
+escreval ("Homem-de-Ferro: genio, bilionario, playboy e filantropo")
 
 outrocaso
 
+escreval("Numero invalido Tente novamente")
 fimescolha
+
 Fimalgoritmo
