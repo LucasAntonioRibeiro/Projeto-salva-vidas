@@ -1,7 +1,7 @@
 Algoritmo "semnome"
-// Disciplina   : LÛgica de ProgramaÁ„o e Algoritmos
+// Disciplina   : L√≥gica de Programa√ß√£o e Algoritmos
 // Professor   : MSc. Tiago Antonio da Silva
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 18/02/2025
 Var
@@ -13,7 +13,7 @@ Inicio
    escreval("Bom agora quero que informe sua renda")
    leia(renda)
 
-   Se (renda <= 1500) Ent„o
+   Se (renda <= 1500) Ent√£o
       Escreval("Renda insuficiente")
 Fimalgoritmo
 Fimse
@@ -31,11 +31,11 @@ caso 1
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
    fimse
-   Se (renda >= 2000) e (renda <= 2500) Ent„o
+   Se (renda >= 2000) e (renda <= 2500) Ent√£o
       parcela <- renda * 0.2
    Fimse
 
-   Se (renda > 2500) Ent„o
+   Se (renda > 2500) Ent√£o
       parcela <- renda * 0.3
    Fimse
 
@@ -44,12 +44,13 @@ caso 1
 caso 2
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
+   fimse
 
-      Se (renda >= 2000) e (renda <= 2500) Ent„o
+      Se (renda >= 2000) e (renda <= 2500) Ent√£o
          parcela <- renda * 0.2
       Fimse
 
-      Se (renda > 2500) Ent„o
+      Se (renda > 2500) Ent√£o
          parcela <- renda * 0.3
       Fimse
 
@@ -59,11 +60,11 @@ caso 2
          parcela <- renda * 0.15
       fimse
 
-      Se (renda >= 2000) e (renda <= 2500) Ent„o
+      Se (renda >= 2000) e (renda <= 2500) Ent√£o
          parcela <- renda * 0.2
       Fimse
 
-      Se (renda > 2500) Ent„o
+      Se (renda > 2500) Ent√£o
          parcela <- renda * 0.3
       Fimse
 
@@ -72,12 +73,12 @@ caso 2
    caso 4
       se (renda > 1500) e (renda < 2000) entao
          parcela <- renda * 0.15
-
-         Se (renda >= 2000) e (renda <= 2500) Ent„o
+      fimse
+         Se (renda >= 2000) e (renda <= 2500) Ent√£o
             parcela <- renda * 0.2
          Fimse
 
-         Se (renda > 2500) Ent„o
+         Se (renda > 2500) Ent√£o
             parcela <- renda * 0.3
          Fimse
 
@@ -90,3 +91,4 @@ escreval("Aqui esta seu seguro R$", seguro)
 escreval("Aqui esta o total R$", (parcela + seguro) )
 
 Fimalgoritmo
+
