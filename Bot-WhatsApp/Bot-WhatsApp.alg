@@ -1,7 +1,7 @@
 Algoritmo "semnome"
 //
 //
-// DescriÁ„o   : Aqui vocÍ descreve o que o programa faz! (funÁ„o)
+// Descri√ß√£o   : Aqui voc√™ descreve o que o programa faz! (fun√ß√£o)
 // Autor(a)    : Nome do(a) aluno(a)
 // Data atual  : 13/09/2025
 Var
@@ -12,13 +12,13 @@ Var
 
 
 Inicio
-   escreval("Ol· qual e o seu nome?")
+   escreval("Ol√° qual e o seu nome?")
    leia(nome)
 
-   escreval("bem vindo ", nome," eu sou um bot feito para o WhatsAppE e eu tenho algumas opÁoes de atendimento")
-   escreval("1 - Requisitos para contratar emprÈstimos")
-   escreval("2 - Fazer imprÈstimo")
-   escreval("3 - InformaÁıes de contato")
+   escreval("bem vindo ", nome," eu sou um bot feito para o WhatsApp e eu tenho algumas op√ßoes de atendimento")
+   escreval("1 - Requisitos para contratar empr√©stimos")
+   escreval("2 - Fazer impr√©stimo")
+   escreval("3 - Informa√ß√µes de contato")
    leia (opcao)
 
    escolha opcao
@@ -31,7 +31,7 @@ Inicio
       escreval("Bom agora quero que informe sua renda")
       leia(renda)
 
-      Se (renda <= 1500) Ent„o
+      Se (renda <= 1500) Ent√£o
          Escreval("Renda insuficiente")
 Fimalgoritmo
 Fimse
@@ -49,58 +49,58 @@ caso 1
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
    fimse
-   Se (renda >= 2000) e (renda <= 2500) Ent„o
+   Se (renda >= 2000) e (renda <= 2500) Ent√£o
       parcela <- renda * 0.2
    Fimse
 
-   Se (renda > 2500) Ent„o
+   Se (renda > 2500) Ent√£o
       parcela <- renda * 0.3
    Fimse
 
-   seguro <- parcela 0.05
+   seguro <- parcela * 0.05
 
 caso 2
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
    fimse
 
-   Se (renda >= 2000) e (renda <= 2500) Ent„o
+   Se (renda >= 2000) e (renda <= 2500) Ent√£o
       parcela <- renda * 0.2
    Fimse
 
-   Se (renda > 2500) Ent„o
+   Se (renda > 2500) Ent√£o
       parcela <- renda * 0.3
    Fimse
 
-   seguro <- parcela 0.07
+   seguro <- parcela * 0.07
 caso 3
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
    fimse
 
-   Se (renda >= 2000) e (renda <= 2500) Ent„o
+   Se (renda >= 2000) e (renda <= 2500) Ent√£o
       parcela <- renda * 0.2
    Fimse
 
-   Se (renda > 2500) Ent„o
+   Se (renda > 2500) Ent√£o
       parcela <- renda * 0.3
    Fimse
 
-   seguro <- parcela 0.1
+   seguro <- parcela * 0.1
 
 caso 4
    se (renda > 1500) e (renda < 2000) entao
       parcela <- renda * 0.15
    fimse
-   Se (renda >= 2000) e (renda <= 2500) Ent„o
+   Se (renda >= 2000) e (renda <= 2500) Ent√£o
       parcela <- renda * 0.2
    Fimse
 
-   Se (renda > 2500) Ent„o
+   Se (renda > 2500) Ent√£o
       parcela <- renda * 0.3
    Fimse
 
-   seguro <- parcela 0.15
+   seguro <- parcela * 0.15
 
 fimescolha
 
@@ -109,9 +109,10 @@ escreval("Aqui esta seu seguro R$", seguro)
 escreval("Aqui esta o total R$", (parcela + seguro) )
 
 caso 3
-   escreva("Para mais informaÁıes mande mensagem para 13968851545")
+   escreva("Para mais informa√ß√µes mande mensagem para 13968851545")
 
 outrocaso
-   escreval ("OpÁ„o invalida")
+   escreval ("Op√ß√£o invalida")
 fimescolha
+
 Fimalgoritmo
